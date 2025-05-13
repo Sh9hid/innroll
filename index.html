@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartEnroll: Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Innroll - StudentDB  </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="records.html">View Records</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>Student Registration</h2>
+            <form id="studentForm">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="studentId">Student ID:</label>
+            <input type="number" id="studentId" name="studentId" required>
+            <br>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="contact">Contact No:</label>
+            <input type="tel" id="contact" name="contact" required>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <div class="card" id="records">
+        <h2>Student Records</h2>
+        <div class="table-container">
+            <table id="recordsTable">
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Student ID</th>
+                        <th>Email</th>
+                        <th>Contact No</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody><!-- Records will load here --></tbody>
+            </table>
+        </div>
+    </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+<
+</html>
