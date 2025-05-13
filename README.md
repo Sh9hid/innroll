@@ -56,7 +56,7 @@ Innroll isn’t just a static form — it supports collaborative use cases throu
 
 - HTML5 + CSS3 + JavaScript (Vanilla)
 - LocalStorage API
-- (Optional) TailwindCSS or Bootstrap for styling
+
 
 ---
 
