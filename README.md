@@ -65,5 +65,5 @@ Innroll isn’t just a static form — it supports collaborative use cases throu
 No build tools, no installs — just clone and run:
 
 ```bash
-git clone https://github.com/yourusername/innroll.git
+git clone https://github.com/Sh9hid/innroll.git
 cd innroll
